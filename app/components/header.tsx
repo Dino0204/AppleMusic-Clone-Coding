@@ -10,6 +10,11 @@ import Repeat from '../../public/repeat.svg'
 import PlayList from '../../public/playlist.svg'
 import Profile from '../../public/profile.svg'
 
+import MusicIcon from '../../public/musicIcon.svg'
+import AppleLogo from '../../public/appleLogo.svg'
+
+
+
 export default function Header() {
   return (
     <header className='flex h-14 p-[5px] shadow'>
@@ -22,8 +27,7 @@ export default function Header() {
           <Image src={Repeat} alt="repeat" />
         </article>
         <article className='flex flex-1 justify-center items-center'>
-          current music
-          applelogo
+          <Image src={AppleLogo} alt="appleLogo" />
         </article>
         <article className='flex flex-1 justify-center items-center'>
           <div className='flex justify-between w-[80%]'>
